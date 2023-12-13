@@ -1,0 +1,95 @@
+  /* background_body_boxes_and_btn */
+  .img_background_body {
+    width: 100%;
+    height: 900px;
+  }
+  
+  
+  .boxes_background_body {
+      background-color: #D36A78!important;
+      max-width: 300px;
+      box-shadow:-2px -1px 3px rgb(43, 43, 43, 0.5);
+      position: relative;
+      top: -550px;
+    }
+  
+  
+  
+    .font_size {
+      font-size: 11px;
+    }
+    
+    
+    .card-title {
+      font-size: 15px;
+      font-weight: bold;
+    }
+  
+  
+    .title_above_boxes_body {
+        position: relative;
+      top: -515px;
+      }
+  
+  
+      .img_background_body_mobile {
+        position: relative;
+      top: 50px;
+      width: 100%;
+      height: 700px;
+      }
+  
+  
+  
+      .body_boxes_btn {
+        position: relative;
+        top: -540px;
+        
+  
+        .btn_body {
+          background-color: #D36A78;
+          color: white;
+        }
+  
+        .btn_body:hover{
+            background-color: #d36a78c6;
+          }
+  
+        
+  
+      }
+  
+  
+  
+  /* Large devices (desktops, 992px and up) */
+  @media (min-width: 992px) {
+    .boxes_background_body {
+      background-color: #D36A78!important;
+      max-width: 300px;
+      box-shadow:-2px -1px 3px rgb(43, 43, 43, 0.5);
+    }
+  
+  
+  }
+    
+    
+    /* Large devices (desktops, 992px and up) */
+    @media (max-width: 450px) {
+      .font_size {
+      font-size: 7px;
+    }
+    
+    
+    .card-title {
+      font-size: 10px;
+      font-weight: bold;
+    }
+  
+  
+  
+    .boxes_background_body {
+      background-color: #D36A78!important;
+      max-width: 70%;
+    }
+  
+    }

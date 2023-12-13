@@ -1,0 +1,21 @@
+
+    /* navbar_buttons */
+    .navb_btn_1 {
+        outline-style:solid;
+        outline-color: #D36A78;
+        outline-width: 1px;
+        color: white;
+      }
+  
+      .navb_btn_1:hover {
+        background-color: #D36A78;
+      }
+  
+      .navb_btn_2 {
+        background-color: #D36A78;
+        color: white;
+      }
+  
+      .navb_btn_2:hover {
+        background-color: #d36a78ac;
+      }

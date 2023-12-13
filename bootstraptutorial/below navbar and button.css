@@ -1,0 +1,19 @@
+
+
+          /* below navbar and button */
+         
+          .below_navbar_text {
+            padding-top: 100px!important;
+          }
+
+
+          .showcase_btn {
+            background-color: #D36A78;
+            color: white;
+          }
+
+
+          
+          .showcase_btn:hover {
+            background-color: #d36a78ac;
+          }

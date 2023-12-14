@@ -2,6 +2,11 @@
 /* showcase */
 /* Small devices (landscape phones, 576px and up) */
 
+.background_text {
+  text-align: justify;
+}
+
+
 @media (max-width: 500px) {
               
     .below_navbar_text {
@@ -10,6 +15,10 @@
       .Tittle_showcase {
         font-size: 15px;
       }
+    }
+
+    .background_text {
+      text-align: justify;
     }
 
 
@@ -42,6 +51,9 @@
       }
     }
 
+    .background_text {
+      text-align: justify;
+    }
 
     .showcase_btn {
       background-color: #D36A78;
@@ -60,11 +72,16 @@
     .below_navbar_text {
       padding-top: 200px!important;
       font-size:20px;
+      
       .Tittle_showcase {
-        font-size: 50px;
+        font-size: 40px;
       }
     }
 
+    
+    .background_text {
+      text-align: justify;
+    }
 
     .showcase_btn {
       background-color: #D36A78;

@@ -31,23 +31,23 @@
           <div class="col ">
             <div class="d-none d-lg-flex row p-0 row-cols text-center align-items-center justify-content-center">
                 <div class="navbar_underline col p-0">
-                    <a class="navbar_links nav-link" href="#">پەیوەندی</a>
+                    <a class="navbar_links nav-link"             onclick="scrollToBottom()"  href="#bottom" >پەیوەندی</a>
                 </div>
                 <div class="navbar_underline col p-0">
-                    <a class="navbar_links nav-link" href="#">خولێن بەردەست</a>
+                    <a class="navbar_links nav-link" href="courses">خولێن بەردەست</a>
                 </div>
                 <div class="navbar_underline col p-0">
-                    <a class="navbar_links nav-link" href="#">ماموستا</a>
+                    <a class="navbar_links nav-link" href="teachers">ماموستا</a>
                 </div>
                 <div class="navbar_underline col p-0">
-                    <a class="navbar_links nav-link" href="#">دەستپێك</a>
+                    <a class="navbar_links nav-link" href="home">دەستپێك</a>
                 </div>
                 <div class="col p-0">
-                    <button class="navb_btn_1 btn " type="submit">خۆتوومارکرن</button>
+                    <button class="navb_btn_1 btn " type="submit"> <a href="signup"> خۆتوومارکرن</a></button>
 
                 </div>
                 <div class="col p-0">
-                    <button class="navb_btn_2 btn " type="submit">چوونا ژوور</button>
+                    <button class="navb_btn_2 btn " type="submit"> <a href="login">چوونا ژوور </a></button>
                 </div>
             </div>
 
@@ -367,7 +367,7 @@
 </div>
 <!-- footer -->
 <div class="fluid text-center">
-  <img class="logo_footer img-fluid" src="4.png" alt="">
+  <img id="bottom"    class="logo_footer img-fluid" src="4.png" alt="">
   <div class="title_footer text-dark fw-bold mb-3">
     بو پتر پێزانینان پەیوەندیێ ب مە بکە
   </div>
@@ -392,10 +392,19 @@
 
 
 
+<script>
+  function scrollToBottom() {
+    // Get the element with the id "bottom"
+    var element = document.getElementById("bottom");
 
+    // Scroll to the element's position
+    element.scrollIntoView({ behavior: "smooth" });
+  }
+</script>
 
 
 
 <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js" integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous"></script>
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.min.js" integrity="sha384-cuYeSxntonz0PPNlHhBs68uyIAVpIIOZZ5JqeqvYYIcEL727kskC66kF92t6Xl2V" crossorigin="anonymous"></script>  </body>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.min.js" integrity="sha384-cuYeSxntonz0PPNlHhBs68uyIAVpIIOZZ5JqeqvYYIcEL727kskC66kF92t6Xl2V" crossorigin="anonymous"></script>  
+</body>
 </html>

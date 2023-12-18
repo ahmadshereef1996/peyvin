@@ -1,0 +1,41 @@
+      /* jagar_card */
+      .the_cards {
+        width: 50%;
+        padding-top: 100px;
+    }
+
+    .card_texts {
+        background-color: #3E1AA1!important;
+        border-radius: 20px;
+        padding-right: 20px;
+        padding-left: 20px;
+        padding-top: 70px;
+        padding-bottom: 20px;
+    }
+
+    .imag_cards_size {
+        width: 400px;
+        margin-bottom: -50px;
+    }
+
+
+
+    /* responsive */
+    @media (max-width: 992px) {
+        .the_cards {
+        width: 90%;
+        padding-top: 100px;
+    }
+
+
+
+        .imag_cards_size {
+        width: 200px;
+        margin-bottom: -50px;
+    }
+
+
+    .page_efinition {
+        font-size: 20px!important;
+    }
+    }

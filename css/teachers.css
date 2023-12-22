@@ -1,41 +1,174 @@
-      /* teachers */
-      .the_cards {
-        width: 50%;
-        padding-top: 100px;
-    }
+/* teachers */
+.the_cards {
+width: 90%;
+padding-top: 100px;
+}
 
-    .card_texts {
-        background-color: #3E1AA1!important;
-        border-radius: 20px;
-        padding-right: 20px;
-        padding-left: 20px;
-        padding-top: 70px;
-        padding-bottom: 20px;
-    }
-
-    .imag_cards_size {
-        width: 400px;
-        margin-bottom: -50px;
-    }
-
+.imag_cards_size {
+width: 400px;
+margin-bottom: -50px;
+}
+.card_div {
+background-color: #3E1AA1;
+border-radius: 20px;
+padding-right: 20px;
+padding-left: 20px;
+padding-top: 60px;
+padding-bottom: 20px;
+}
 
 
-    /* responsive */
-    @media (max-width: 992px) {
-        .the_cards {
-        width: 90%;
-        padding-top: 100px;
-    }
+.tittle_card {
+    font-size: 25px;
+}
+
+
+.paragraph_card {
+ font-size: 13px;
+}
+
+
+.btn_ {
+    background-color: #D36A78;
+    color: white;
+    padding: 5px;
+    border-radius: 20px;
+}
 
 
 
-        .imag_cards_size {
-        width: 200px;
-        margin-bottom: -50px;
-    }
 
 
-    .page_efinition {
-        font-size: 20px!important;
-    }
-    }
+
+
+
+
+
+
+
+
+@media (min-width: 400px) {
+.the_cards {
+width: 90%;
+padding-top: 100px;
+}
+
+.imag_cards_size {
+width: 400px;
+margin-bottom: -50px;
+}
+
+.card_div {
+background-color: #3E1AA1;
+border-radius: 20px;
+padding-right: 20px;
+padding-left: 20px;
+padding-top: 60px;
+padding-bottom: 20px;
+}
+
+
+.tittle_card {
+font-size: 28px;
+}
+
+
+.paragraph_card {
+font-size: 16px;
+}
+
+
+.btn_ {
+background-color: #D36A78;
+color: white;
+padding: 5px;
+border-radius: 20px;
+}
+} 
+
+
+
+
+@media (min-width: 600px) {
+.the_cards {
+width: 70%;
+padding-top: 100px;
+}
+
+.imag_cards_size {
+width: 300px;
+margin-bottom: -50px;
+}
+
+.card_div {
+background-color: #3E1AA1;
+border-radius: 20px;
+padding-right: 20px;
+padding-left: 20px;
+padding-top: 60px;
+padding-bottom: 20px;
+}
+
+
+.tittle_card {
+font-size: 30px;
+}
+
+
+.paragraph_card {
+font-size: 20px;
+}
+
+
+.btn_ {
+background-color: #D36A78;
+color: white;
+padding: 5px;
+border-radius: 20px;
+font-size: 18px;
+}
+} 
+
+
+
+
+
+@media (min-width: 992px) {
+.the_cards {
+width: 60%;
+padding-top: 100px;
+}
+
+.imag_cards_size {
+width: 300px;
+margin-bottom: -50px;
+}
+
+.card_div {
+background-color: #3E1AA1;
+border-radius: 20px;
+padding-right: 20px;
+padding-left: 20px;
+padding-top: 60px;
+padding-bottom: 20px;
+}
+
+
+.tittle_card {
+font-size: 45px;
+}
+
+
+.paragraph_card {
+font-size: 30px;
+}
+
+
+.btn_ {
+background-color: #D36A78;
+color: white;
+padding: 5px;
+border-radius: 20px;
+font-size: 18px;
+}
+} 

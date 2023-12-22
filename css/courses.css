@@ -1,60 +1,96 @@
-  /* return_button */
-  .return_button {
-    background-color: #3E1AA1;
-    color: white;
-    width: 100px;
-    font-size: 25px;
-    margin-top: 50px;
-    border: none;
-    border-radius: 20px;
-  }
+/* all the boxes */
+.numbers {
+background-color: #3E1AA1;
+width: fit-content;
+margin: auto;
+margin-bottom: 20px;
+font-size: 30px;
+font-weight: bold;
+} 
 
-    /* all the boxes */
-  .course_offers_1 {
-    margin-top: 100px;
-    max-width: 800px;
-    border-radius: 20px;
-    font-size: 20px;
-  }
+.all_offers {
+margin-top: 100px;
+width: 90%;
+border-radius: 20px;
+}
 
-  .numbers_boxes {
-      background-color: #3E1AA1;
-      width: fit-content;
-      margin: auto;
-      margin-bottom: 20px;
-      font-size: 30px;
-      font-weight: bold;
-    }
+.boxes {
+padding: 20px;
+border-radius: 15px;
+background-color: #3E1AA1;
+}
 
-  .course_offers_1, row{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    text-align: center;
-    }
+.tittle_text {
+font-size: 20px;
+font-weight: bold;
+}
+
+.paragraph {
+font-size: 10px;
+}
 
 
-  .text_of_course_offers_1 {
-    padding: 40px;
-    border-radius: 15px;
-    background-color: #3E1AA1!important;
-  }
-  
+/* responsive */
+@media (min-width: 400px) {
+.numbers {
+background-color: #3E1AA1;
+width: fit-content;
+margin: auto;
+margin-bottom: 20px;
+font-size: 30px;
+font-weight: bold;
+} 
+
+.all_offers {
+margin-top: 100px;
+width: 80%;
+border-radius: 20px;
+}
+
+.boxes {
+padding: 20px;
+border-radius: 15px;
+background-color: #3E1AA1;
+}
+
+.tittle_text {
+font-size: 23px;
+}
+
+.paragraph {
+font-size: 14px;
+}
+}
 
 
-  /* responsive */
-  @media (max-width: 992px) {
-        .page_efinition {
-            font-size: 20px!important;
-        }
-        }
+/* responsive */
+@media (min-width: 800px) {
+.numbers {
+background-color: #3E1AA1;
+width: fit-content;
+margin: auto;
+margin-bottom: 20px;
+font-size: 30px;
+font-weight: bold;
+} 
 
+.all_offers {
+margin-top: 100px;
+width: 70%;
+border-radius: 20px;
+}
 
-  @media (max-width: 884px) {
-    .course_offers_1 {
-    margin-top: 100px;
-    width: 70%;
-    border-radius: 20px;
-    font-size: 20px;
-  }
-  }
+.boxes {
+padding: 20px;
+border-radius: 15px;
+background-color: #3E1AA1;
+}
+
+.tittle_text {
+font-size: 30px;
+}
+
+.paragraph {
+font-size: 20px;
+}
+}

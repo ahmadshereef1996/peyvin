@@ -16,6 +16,11 @@ color: white;
 border-radius: 20px;
 }
 
+.showcase_btn:hover {
+    background-color: #d36a78b3;
+}
+
+
 
 @media (min-width: 350px) { 
 .Tittle_showcase {
@@ -155,9 +160,9 @@ text-align: justify;
 .showcase_btn {
 /* margin-top: 0px;  */
 /* background-color: #D36A78; */
-font-size: 25px;
+font-size: 19px;
 padding: 7px;
-border-radius: 60px;
+border-radius: 50px;
 /* color: white; */
 }
 }

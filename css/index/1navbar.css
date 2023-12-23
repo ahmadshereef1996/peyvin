@@ -14,6 +14,7 @@ outline-color: #D36A78;
 outline-width: 1px;
 color: white;
 border-radius: 20px;
+font-size: 12px;
 }
 
 .navb_btn_1:hover {
@@ -24,6 +25,7 @@ background-color: #D36A78;
 background-color: #D36A78;
 color: white;
 border-radius: 20px;
+font-size: 12px;
 }
 
 .navb_btn_2:hover {
@@ -60,7 +62,11 @@ opacity: 1;
 transform: translate3d(0, 0.2em, 0);
 }
 
-
+.navbar_width  {
+    width: 100%;
+    float: right;
+    font-size: 13px;
+}
 
 
 

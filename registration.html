@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>test</title>
+    <title>Registration</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
 
     <link rel="stylesheet" href="css/index/0general.css">
@@ -22,20 +22,50 @@
     <link rel="stylesheet" href="css/michael_card.css">
     <link rel="stylesheet" href="css/signup.css">
     <link rel="stylesheet" href="css/teachers.css">
+    <link rel="stylesheet" href="css/registration.css">
 
     </head>
 
 
     <style>
-    .msg_ {
-        border: 3px solid black;
-        border-radius: 30px;
-        padding: 50px;
-        margin: 80px;
-        text-align: center;
-        background-color: red;
-        color: white;
-    }
+                  .underline_fixed_registration{ 
+                  display: block;
+                  position: relative;
+                  padding: 0.2em 0;
+                  }
+
+
+                  .underline_fixed_registration::after{
+                  content: '';
+                  position: absolute;
+                  bottom: 0;
+                  left: 20%;
+                  width: 60%;
+                  height: 0.2em;
+                  background-color: #e37886;
+                  }
+
+                  .underline_fixed_registration_menu {
+                  display: block;
+                  position: relative;
+                  padding: 0.2em 0;
+                  }
+
+
+                  .underline_fixed_registration_menu::after{
+                  content: '';
+                  position: absolute;
+                  bottom: 0;
+                  left: 70%;
+                  width: 30%;
+                  height: 0.2em;
+                  background-color: #e37886;
+                  }
+                  .underline_fixed_registration::after,
+                  .underline_fixed_registration_menu::after {
+                  opacity: 1;
+                  transform: translate3d(0, 0.2em, 0);
+                  }
     </style>
 
 <body>
@@ -53,7 +83,7 @@
               <a class="navbar_links nav-link" onclick="scrollToBottom()"  href="#bottom" >پەیوەندی</a>
             </div>
             <div class="navbar_underline col p-0">
-                <a class="navbar_links nav-link" href="registration.html">بەشداربوون </a>
+                <a class="underline_fixed_registration nav-link" href="registration.html">بەشداربوون </a>
             </div>
           <div class="navbar_underline col p-0">
               <a class="navbar_links nav-link" href="courses.html">خولێن بەردەست</a>
@@ -118,7 +148,7 @@
                         <hr>
                       </li>
                       <div class="nav-item">
-                        <a class="nav-link active" href="registration.html">بەشداربوون </a>
+                        <a class="nav-link underline_fixed_registration_menu active" href="registration.html">بەشداربوون </a>
                         <hr>
                     </div>
                       <li class="nav-item">
@@ -178,11 +208,36 @@
 
 
 
-<h1 class="msg_">
-    ل ڤێرێ دێ فورمەک ئێتە دانان کو قوتابی ل دەیف دلێ خو خولێ ژێ بگرت!
-</h1>
 
 
+
+
+<div class=" container mt-5">
+  <div class="row text-center m-1">
+    <h1 dir="rtl" class="note_ bg-success p-2 rounded-5 user-select-none">ئەو خولێن سەرەکی ئەڤە نە، تو دشێ ناڤێ خۆ تووماربکی د ئێک ژڤان فورما دا !</h1>
+  </div>
+</div>
+
+
+<div class="div_group_form container">
+  <div class="row text-center">
+    <h1 class="form_tittle user-select-none">خولێن گروپان</h1>
+   <button class="btn_forms">
+    <a class="link_tittle nav-link" href="https://docs.google.com/forms/d/e/1FAIpQLSe7OLrobcUDM7E-Vky4u_nrRQ_JVDBoYq9t1Jxh1Y0LdtKFow/viewform" download>خۆ توومارکرن</a>
+   </button>
+  </div>
+</div>
+
+
+
+<div class="div_group_form container">
+  <div class="row text-center">
+    <h1 dir="rtl" class="form_tittle user-select-none">خولێن تایبەت (VIP)</h1>
+   <button class="btn_forms">
+    <a class="link_tittle nav-link" href="https://docs.google.com/forms/d/e/1FAIpQLSe7OLrobcUDM7E-Vky4u_nrRQ_JVDBoYq9t1Jxh1Y0LdtKFow/viewform" download>خۆ توومارکرن</a>
+   </button>
+  </div>
+</div>
 
 
 

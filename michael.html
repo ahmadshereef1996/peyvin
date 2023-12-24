@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>test</title>
+    <title>Mr. Michael</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
     <link rel="stylesheet" href="css/index/0general.css">
     <link rel="stylesheet" href="css/index/1navbar.css">
@@ -21,10 +21,48 @@
     <link rel="stylesheet" href="css/michael_card.css">
     <link rel="stylesheet" href="css/signup.css">
     <link rel="stylesheet" href="css/teachers.css">
+
+    <style>
+                  .underline_fixed_teachers{ 
+                  display: block;
+                  position: relative;
+                  padding: 0.2em 0;
+                  }
+
+
+                  .underline_fixed_teachers::after{
+                  content: '';
+                  position: absolute;
+                  bottom: 0;
+                  left: 20%;
+                  width: 60%;
+                  height: 0.2em;
+                  background-color: #e37886;
+                  }
+
+                  .underline_fixed_teachers_menu {
+                  display: block;
+                  position: relative;
+                  padding: 0.2em 0;
+                  }
+
+
+                  .underline_fixed_teachers_menu::after{
+                  content: '';
+                  position: absolute;
+                  bottom: 0;
+                  left: 70%;
+                  width: 30%;
+                  height: 0.2em;
+                  background-color: #e37886;
+                  }
+                  .underline_fixed_teachers::after,
+                  .underline_fixed_teachers_menu::after {
+                  opacity: 1;
+                  transform: translate3d(0, 0.2em, 0);
+                  }
+    </style>
     </head>
-
-
-
 <body>
 <!-- navbar -->
 <div class="thewholenav container-fluid fixed-top">
@@ -39,14 +77,14 @@
           <div class="navbar_underline col p-0">
               <a class="navbar_links nav-link" onclick="scrollToBottom()"  href="#bottom" >پەیوەندی</a>
             </div>
-            <div class="navbar_underline col p-0">
+            <div class="navbar_underline  col p-0">
                 <a class="navbar_links nav-link" href="registration.html">بەشداربوون </a>
             </div>
           <div class="navbar_underline col p-0">
               <a class="navbar_links nav-link" href="courses.html">خولێن بەردەست</a>
           </div>
-          <div class="navbar_underline col p-0">
-              <a class="navbar_links nav-link" href="teachers.html">ماموستا</a>
+          <div class="navbar_underline col p-0" >
+              <a class="underline_fixed_teachers nav-link" href="teachers.html" >ماموستا</a>
           </div>
           <div class="navbar_underline col p-0">
               <a class="navbar_links nav-link" href="index.html">دەستپێك</a>
@@ -97,7 +135,7 @@
                         <hr>
                       </li>
                       <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="teachers.html">ماموستا</a>
+                        <a class="nav-link underline_fixed_teachers_menu active" aria-current="page" href="teachers.html">ماموستا</a>
                         <hr>
                       </li>
                       <li class="nav-item">

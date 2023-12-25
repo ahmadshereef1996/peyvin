@@ -1,11 +1,11 @@
 /* showcase */
 .Tittle_showcase {
-margin-top: 20px;
-font-size: 10px;
+margin-top: 15px;
+font-size: 12px;
 font-weight: bold;
 }
 .background_text {
-font-size:9px;
+font-size:10px;
 }
 .showcase_btn {
 margin-top: -25px;
@@ -17,16 +17,26 @@ border-radius: 20px;
 }
 
 .showcase_btn:hover {
-    background-color: #d36a78b3;
+background-color: #d36a78b3;
 }
 
 
 
 @media (min-width: 350px) { 
 .Tittle_showcase {
-margin-top: 50px;
-/* font-size: 10px;
-font-weight: bold; */
+margin-top: 30px;
+font-size: 15px;
+}
+.background_text {
+font-size:12px;
+}
+.showcase_btn {
+margin-top: -25px;
+background-color: #D36A78;
+font-size: 10px;
+padding: 4px;
+color: white;
+border-radius: 20px;
 }
 }
 
@@ -34,16 +44,16 @@ font-weight: bold; */
 @media (min-width: 400px) { 
 .Tittle_showcase {
 /* margin-top: 20px; */
-font-size: 17px;
+font-size: 18px;
 }
 .background_text {
-font-size:12px;
+font-size:15px;
 }
 .showcase_btn {
 margin-top: 0px; 
 /* background-color: #D36A78; */
 font-size: 12px;
-padding: 5px;
+padding: 4px;
 /* color: white; */
 }
 }
@@ -52,10 +62,10 @@ padding: 5px;
 @media (min-width: 500px) { 
 .Tittle_showcase {
 /* margin-top: 20px; */
-font-size: 23px;
+font-size: 25px;
 }
 .background_text {
-font-size:17px;
+font-size:20px;
 }
 .showcase_btn {
 margin-top: 0px; 
@@ -70,10 +80,10 @@ padding: 5px;
 @media (min-width: 600px) { 
 .Tittle_showcase {
 /* margin-top: 20px; */
-font-size: 28px;
+font-size: 30px;
 }
 .background_text {
-font-size:22px;
+font-size:24px;
 }
 .showcase_btn {
 margin-top: 0px; 
@@ -88,11 +98,11 @@ padding: 6px;
 
 @media (min-width: 750px) { 
 .Tittle_showcase {
-margin-top: 90px;
-font-size: 35px;
+margin-top: 60px;
+font-size: 40px;
 }
 .background_text {
-font-size:25px;
+font-size:30px;
 }
 .showcase_btn {
 margin-top: 0px; 
@@ -112,12 +122,12 @@ margin-top: 70px;
 font-size: 44px;
 }
 .background_text {
-font-size:30px;
+font-size:35px;
 }
 .showcase_btn {
 margin-top: 0px; 
 /* background-color: #D36A78; */
-font-size: 30px;
+font-size: 27px;
 padding: 9px;
 border-radius: 60px;
 /* color: white; */
@@ -139,9 +149,9 @@ text-align: justify;
 .showcase_btn {
 margin-top: 0px; 
 /* background-color: #D36A78; */
-font-size: 20px;
+font-size: 17px;
 padding: 6px;
-border-radius: 60px;
+border-radius: 80px;
 /* color: white; */
 }
 }

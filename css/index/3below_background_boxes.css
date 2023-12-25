@@ -1,31 +1,9 @@
 /* below_background_boxes */
 
 .boxes_background {
-width: 70%;
+width: 80%;
 box-shadow:-2px -1px 3px rgba(43, 43, 43, 0.354);
 background-color: #D36A78;
-margin-top: 15px;
-}
-
-.card_title {
-font-size: 8px;
-font-weight: bold;
-}
-
-.card_text {
-font-size: 6px;
-text-align: justify;
-direction: rtl;
-}
-
-
-
-
-@media (min-width: 350px) { 
-
-.boxes_background {
-width: 65%;
-box-shadow:-2px -1px 3px rgba(43, 43, 43, 0.354);
 margin-top: 15px;
 }
 
@@ -39,15 +17,19 @@ font-size: 8px;
 text-align: justify;
 direction: rtl;
 }
-} 
+
+
+/* icons */
+.icons {
+width: 90%;
+}
 
 
 
 
-@media (min-width: 450px) { 
+@media (min-width: 350px) { 
 
 .boxes_background {
-width: 65%;
 box-shadow:-2px -1px 3px rgba(43, 43, 43, 0.354);
 margin-top: 15px;
 }
@@ -67,21 +49,15 @@ direction: rtl;
 
 
 
-
-
-
-
-
-@media (min-width: 600px) { 
+@media (min-width: 450px) { 
 
 .boxes_background {
-width: 65%;
 box-shadow:-2px -1px 3px rgba(43, 43, 43, 0.354);
 margin-top: 15px;
 }
 
 .card_title {
-font-size: 16px;
+font-size: 18px;
 font-weight: bold;
 }
 
@@ -97,10 +73,13 @@ direction: rtl;
 
 
 
-@media (min-width: 750px) { 
+
+
+
+@media (min-width: 600px) { 
 
 .boxes_background {
-width: 65%;
+width: 70%;
 box-shadow:-2px -1px 3px rgba(43, 43, 43, 0.354);
 margin-top: 15px;
 }
@@ -120,21 +99,46 @@ direction: rtl;
 
 
 
-@media (min-width: 850px) { 
+
+
+@media (min-width: 750px) { 
 
 .boxes_background {
-width: 65%;
+width: 75%;
 box-shadow:-2px -1px 3px rgba(43, 43, 43, 0.354);
 margin-top: 15px;
 }
 
 .card_title {
-font-size: 25px;
+font-size: 27px;
 font-weight: bold;
 }
 
 .card_text {
-font-size: 18px;
+font-size: 20px;
+text-align: justify;
+direction: rtl;
+}
+} 
+
+
+
+
+@media (min-width: 850px) { 
+
+.boxes_background {
+width: 70%;
+box-shadow:-2px -1px 3px rgba(43, 43, 43, 0.354);
+margin-top: 15px;
+}
+
+.card_title {
+font-size: 29px;
+font-weight: bold;
+}
+
+.card_text {
+font-size: 22px;
 text-align: justify;
 direction: rtl;
 }
@@ -146,7 +150,7 @@ direction: rtl;
 @media (min-width: 992px) { 
 
 .boxes_background {
-width: 300px;
+width: 310px;
 box-shadow:-2px -1px 3px rgba(43, 43, 43, 0.354);
 margin: 5px;
 position: relative;
@@ -154,12 +158,12 @@ top: -40px;
 }
 
 .card_title {
-font-size: 15px;
+font-size: 16px;
 font-weight: bold;
 }
 
 .card_text {
-font-size: 12px;
+font-size: 14px;
 text-align: justify;
 direction: rtl;
 }
@@ -170,8 +174,4 @@ direction: rtl;
 
 
 
-/* icons */
-.icons {
-width: 90%;
-}
 

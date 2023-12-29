@@ -23,6 +23,8 @@
     <link rel="stylesheet" href="css/michael_card.css">
     <link rel="stylesheet" href="css/signup.css">
     <link rel="stylesheet" href="css/teachers.css">
+    <link rel="stylesheet" href="css/dropdown.css">
+
 
     <style>
                   .underline_fixed_teachers{ 
@@ -79,12 +81,23 @@
           <div class="navbar_underline col p-0">
               <a class="navbar_links nav-link" onclick="scrollToBottom()"  href="#bottom" >پەیوەندی</a>
             </div>
-            <div class="navbar_underline  col p-0">
+            <!-- <div class="navbar_underline  col p-0">
                 <a class="navbar_links nav-link" href="registration.html">بەشداربوون </a>
+            </div> -->
+
+
+            <div class="navbar_underline dropdown col p-0 text-center ">
+              <button class="btn dropdown-toggle  text-light" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                خولێن بەردەست
+              </button>                  
+
+              <div class="dropdown-menu dropdown_menu  text-end">
+                <li><a class="dropdown-item" href="groups.html">خولێن گروپان</a></li>
+                <li><a dir="rtl" class="dropdown-item" href="vips.html">خولێن تایبەت VIP</a></li>
+              </div>
             </div>
-          <div class="navbar_underline col p-0">
-              <a class="navbar_links nav-link" href="courses.html">خولێن بەردەست</a>
-          </div>
+
+
           <div class="navbar_underline col p-0" >
               <a class="underline_fixed_teachers nav-link" href="teachers.html" >ماموستا</a>
           </div>

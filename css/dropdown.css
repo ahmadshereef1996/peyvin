@@ -1,0 +1,39 @@
+
+.dropdown_menu {
+background-color: #e37886;
+color: white;
+}
+
+
+.dropdown_menu::before {
+width: 100px;
+  }
+
+
+.dropdown_text {
+    background-color: #e37886;
+    padding: 6px;
+    border-radius: 5px;
+  }
+
+  .dropdown_text:hover{
+    background-color: #e37886;
+  }
+
+
+
+  .dropdown-item{
+    color: white;
+  }
+  .dropdown-item:hover{
+  background-color: white;
+  color: black;
+  }
+
+
+  .dropdown-item:active{
+    background-color: rgba(255, 255, 255, 0);
+    color: white;
+    border-radius: 5px;
+    border: 1px solid white;
+   }

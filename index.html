@@ -98,9 +98,15 @@
                     <button class="navb_btn_2 btn " type="submit"> <a class="nav-link" href="login.html">چوونا ژوور </a></button>
                 </div> -->
             </div>
-            <div class="row text-end  d-lg-none">
+            <div class="row text-end">
                 <nav class="navbar navbar-dark fixed-top">
-                    <div class="container-fluid">
+
+
+
+
+
+
+                    <div class="container-fluid d-lg-none">
 
                      <div class="ms-auto">
                         <button class=" navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasDarkNavbar" aria-controls="offcanvasDarkNavbar">
@@ -124,7 +130,7 @@
 
 
                             
-                          <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                          <ul class="navbar-nav justify-content-end flex-grow-1 pe-3 ">
                             <li class="nav-item">
                               <a class="nav-link underline_fixed_index active" aria-current="page" href="index.html">دەستپێك</a>
                               <hr>
@@ -198,7 +204,7 @@
 <div class="container-fluid text-end d-flex justify-content-center">
   <div class=" row col-sm-12 col-lg-12 justify-content-center ">
     
-  <div class="boxes_background col-lg-4  card">
+  <div class="boxes_background col-lg-4  card reveal">
     <div class="row g-0 align-items-center">
      
       <div class="col">
@@ -215,7 +221,7 @@
   </div>
 
 
-  <div class="col-lg-4 card boxes_background boxes_background2">
+  <div class="col-lg-4 card boxes_background boxes_background2 reveal">
     <div class="row align-items-center g-0 ">
 
       <div class="col">
@@ -234,7 +240,7 @@
 
 
 
-  <div class="col-lg-4 card boxes_background">
+  <div class="col-lg-4 card boxes_background reveal">
     <div class="row align-items-center g-0">
 
       
@@ -285,11 +291,11 @@
   <div class=" container-fluid mt-5 text-end d-flex justify-content-center">
     <div class="font_size row col-sm-10 col-lg-12  justify-content-center g-2">
       
-    <div class="boxes_background_body card" >
+    <div class="boxes_background_body card reveal" >
       <div class="row whole_div g-0 align-items-center">
        
   
-        <div class="col">
+        <div class="col ">
           <div class="card-body">
             <h5 class="card-title">فێربوون بێ رێزامن</h5>
             <p dir="rtl" class="card-text">
@@ -308,7 +314,7 @@
     </div>
   
   
-    <div class="card  ms-lg-3 boxes_background_body">
+    <div class="card  ms-lg-3 boxes_background_body reveal">
       <div class="row align-items-center g-0 ">
   
         <div class="col">
@@ -328,7 +334,7 @@
   
   
   
-    <div class="card ms-lg-3 boxes_background_body">
+    <div class="card ms-lg-3 boxes_background_body reveal">
       <div class="row align-items-center g-0">
   
         
@@ -339,7 +345,7 @@
             </div>
           </div>
           
-          <div class="col-4">
+          <div class="col-4 ">
             <img src="images/4.png" class="img-fluid rounded-start" alt="...">
           </div>
   
@@ -365,7 +371,7 @@
 
 
 
-<div class="body_boxes_btn text-center">
+<div class="body_boxes_btn text-center reveal">
   <div class="btn_body btn btn-sm">
     <a class="nav-link" href="courses.html">پتر بزانە</a>
   </div>
@@ -424,7 +430,7 @@
 
 
 
-
+<!-- contact and paragraph -->
 <script>
   function scrollToBottom() {
     // Get the element with the id "bottom"
@@ -434,7 +440,6 @@
     element.scrollIntoView({ behavior: "linear" });
   }
 </script>
-
 <script>
   function scrollToTop() {
     // Get the element with the id "bottom"
@@ -444,6 +449,31 @@
     element.scrollIntoView({ behavior: "linear" });
   }
 </script>
+
+
+<script>
+  window.addEventListener('scroll', reveal);
+
+function reveal() {
+var reveals = document.querySelectorAll('.reveal');
+
+for(var i = 0; i < reveals.length; i++){
+  var windowheight = window.innerHeight;
+  var revealtop = reveals[i].getBoundingClientRect().top;
+  var revealpoint = 150;
+
+  if(revealtop < windowheight - revealpoint) {
+    reveals[i].classList.add('active');
+  }
+  else {
+  }
+}
+}
+
+
+</script>
+
+<!-- website reveals on scroll -->
 
 
 

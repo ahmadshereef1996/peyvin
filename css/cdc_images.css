@@ -1,0 +1,19 @@
+.the_whole_div {
+    background-color:#3E1AA1;
+    padding: 30px;
+    border-radius: 30px;
+}
+
+
+
+
+.all_images {
+    width: 100%;
+    border-radius: 20px;
+    margin-bottom: 5px;
+    border: 2px solid rgb(0, 0, 0);
+}
+
+.three_images {
+    margin: 5px;
+}

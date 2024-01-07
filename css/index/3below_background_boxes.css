@@ -4,7 +4,7 @@
 width: 80%;
 box-shadow:-2px -1px 3px rgba(43, 43, 43, 0.354);
 background-color: #D36A78;
-margin-top: 15px;
+margin-top: 20px;
 }
 
 .card_title {
@@ -31,7 +31,6 @@ width: 90%;
 
 .boxes_background {
 box-shadow:-2px -1px 3px rgba(43, 43, 43, 0.354);
-margin-top: 15px;
 }
 
 .card_title {
@@ -53,7 +52,6 @@ direction: rtl;
 
 .boxes_background {
 box-shadow:-2px -1px 3px rgba(43, 43, 43, 0.354);
-margin-top: 15px;
 }
 
 .card_title {
@@ -81,7 +79,6 @@ direction: rtl;
 .boxes_background {
 width: 70%;
 box-shadow:-2px -1px 3px rgba(43, 43, 43, 0.354);
-margin-top: 15px;
 }
 
 .card_title {
@@ -106,7 +103,6 @@ direction: rtl;
 .boxes_background {
 width: 75%;
 box-shadow:-2px -1px 3px rgba(43, 43, 43, 0.354);
-margin-top: 15px;
 }
 
 .card_title {
@@ -129,7 +125,6 @@ direction: rtl;
 .boxes_background {
 width: 70%;
 box-shadow:-2px -1px 3px rgba(43, 43, 43, 0.354);
-margin-top: 15px;
 }
 
 .card_title {
@@ -150,20 +145,20 @@ direction: rtl;
 @media (min-width: 992px) { 
 
 .boxes_background {
-width: 310px;
+width: 250px;
 box-shadow:-2px -1px 3px rgba(43, 43, 43, 0.354);
 margin: 5px;
 position: relative;
-top: -40px;
+top: -55px;
 }
 
 .card_title {
-font-size: 16px;
+font-size: 12px;
 font-weight: bold;
 }
 
 .card_text {
-font-size: 14px;
+font-size: 10px;
 text-align: justify;
 direction: rtl;
 }

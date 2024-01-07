@@ -64,6 +64,15 @@ color: white;
 background-color: #d36a78c6;
 }
 
+.image_sign_divs {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.image_signs {
+    width: 70%;
+}
 
 
 
